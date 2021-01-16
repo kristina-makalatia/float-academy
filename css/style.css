@@ -1,0 +1,85 @@
+/*Section#1*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.left-wraper {
+	width: 570px;
+	background-color: #F2F2F2;
+	float: left;
+}
+.right-wraper {
+	width: 570px;
+	background-color: #F2F2F2;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.image-box {
+	float: left;
+}
+.text-box {
+	float: right;
+	width: 355px;
+}
+.read {
+	float: right;
+	margin-right: 30px;
+}
+/*Section#2*/
+.image {
+	float: left;
+}
+
+.test::before {
+	content: '';
+	width: 2px;
+	height: 27px;
+	background-color: red;
+	display: inline-block;
+	margin-left: 20px;
+}
+.test::after {
+	content: 'Float';
+	color: red;
+}
+
+.box-wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.image-block {
+	float: left;
+}
+.text-block {
+	float: right;
+}
+.block-wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.container2 {
+	width: 1088px;
+	margin: 0 auto;
+}
+.left-food-wraper {
+	width: 536px;
+	background-color: #F8F8F8;
+	float: left;
+}
+.right-food-wraper {
+	width: 536px;
+	background-color: yellow;
+	float: right;
+}
+.image-food {
+	float: left;
+	margin-right: 16px;
+}
+.text-food {
+	float: left;
+	width: 260px;
+}
